@@ -1,0 +1,86 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+}
+body{
+    background-image: linear-gradient(to right, #99C3BC, white, #CED9C6);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #336655;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+h1 header{
+    font-size: 1pt;
+}
+nav{
+    padding: 10px;
+}
+nav a{
+    color: rgb(178, 231, 178);
+    text-decoration: none;
+    margin: 10px;
+    padding: 15px;
+}
+nav a:hover{
+    background-color: white;
+    color: darkgreen;
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 10px;
+}
+.Climate{
+    background-color: #E8F2EB;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 30px;
+    text-align: justify;
+}
+div > h1{
+    margin: 10px;
+    color: #336655;
+}
+.Classes{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 30px;
+    text-align: center;
+    color: #336655;
+}
+.card img{
+    width: 60px;
+    margin-bottom: 10px;
+    margin: 10px;
+}
+.card{
+    width: 250px;
+}
+h2.card{
+    color: darkgreen;
+    margin: 10px;
+}
+footer{
+    background-color: #336655;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 0px 40px 0px 40px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}

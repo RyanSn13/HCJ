@@ -1,6 +1,7 @@
 @charset "UTF-8";
 *{
     margin: 0px;
+    padding: 0px;
 }
 body{
     background-image: linear-gradient(to right, #99C3BC, white, #CED9C6);
@@ -9,37 +10,34 @@ body{
 header{
     background-color: #336655;
     color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 40px;
     padding: 20px;
-    margin-left: 40px;
     margin-right: 40px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    margin-left: 40px;
+    margin-top: 40px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
-h1 header{
-    font-size: 1pt;
+header > h1{
+    padding-bottom: 10px;
+    padding-top: 20px;
+    text-align: center;
 }
 nav{
     padding: 10px;
 }
 nav a{
-    color: rgb(178, 231, 178);
+    color: white;
     text-decoration: none;
-    margin: 10px;
-    padding: 15px;
+    margin-bottom: 0px;
+    padding: 10px;
 }
 nav a:hover{
     background-color: white;
-    color: darkgreen;
-    transition: 0.3s;
-    border-radius: 5px;
-    padding: 10px;
+    color: #336655;
+    transition: .3s;
 }
 .Climate{
-    background-color: #E8F2EB;
+    background-color: #e8f2eb;
     margin-left: 40px;
     margin-right: 40px;
     padding: 30px;
@@ -64,23 +62,68 @@ div > h1{
     color: #336655;
 }
 .card img{
-    width: 60px;
+    max-width: 320px;
     margin-bottom: 10px;
     margin: 10px;
+    width: 50px;
+    height: 50px;
 }
 .card{
     width: 250px;
+    max-width: 320px;
 }
 h2.card{
     color: darkgreen;
-    margin: 10px;
+    padding: 20px;
+}
+.solução{
+    background-color: rgb(193, 252, 197);
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
 }
 footer{
     background-color: #336655;
     color: white;
     text-align: center;
     padding: 15px;
-    margin: 0px 40px 0px 40px;
+    margin: 0px 40px 40px 40px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
+}
+.arvore{
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 30px;
+    max-width: 320px;
+}
+.teste{
+    text-align: justify;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.oquefazer{
+    background-color: white;
+    color: darkgreen;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    padding: 30px;
+}
+button > a{
+    padding: 10px;
+    background-color: #57927e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+button{
+    padding: 10px;
+    background-color: #57927e;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }

@@ -91,11 +91,13 @@ footer{
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
 }
-.arvore{
+img{
     width: 100%;
+    padding-top: 30px;
+}
+.arvore{
     display: block;
     margin: auto;
-    padding: 30px;
     max-width: 320px;
 }
 .teste{

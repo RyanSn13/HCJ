@@ -38,8 +38,8 @@ nav a:hover{
 }
 .Climate{
     background-color: #e8f2eb;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 30px;
     text-align: justify;
 }
@@ -87,7 +87,7 @@ footer{
     color: white;
     text-align: center;
     padding: 15px;
-    margin: 0px 40px 40px 40px;
+    margin: 0px 20px 40px 20px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
 }
@@ -128,4 +128,9 @@ button{
     color: white;
     border: none;
     border-radius: 5px;
+}
+saiba:hover{
+    transition: 0.3s;
+    color: white;
+    background-color: #57927e;
 }
